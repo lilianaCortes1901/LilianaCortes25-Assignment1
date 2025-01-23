@@ -13,7 +13,7 @@ public class NotFibbonacci {
         System.out.println("Not Fibbonacci Sequence with " + numOfTerms + " sequence size: ");
 
         //n is equal to numOfTerms set by the user input with i being set to index 2 since both 0 and 1 are declared
-        for(int i = 2; i < numOfTerms; i++){ //o(n)
+        for(int i = 2; i < numOfTerms; i++){
             notFibbSeq[i] =  (notFibbSeq[i-1] * 3) + (notFibbSeq[i-2] * 2);
         }
 
